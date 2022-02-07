@@ -354,21 +354,44 @@
 
 // processed = processedArg(7);
 
-function nextInLine(arr, item) {
-    // Змініть код лише під цим рядком
-  arr.push(6);
-  arr.shift()
-    return item;
-    // Змініть код лише над цим рядком
-  }
+// function nextInLine(arr, item) {
+  //   // Змініть код лише під цим рядком
+  // arr.push(6);
+  // arr.shift()
+  //   return item;
+  //   // Змініть код лише над цим рядком
+  // }
   
-  // Налаштування
-  const testArr = [1, 2, 3, 4, 5];
+  // // Налаштування
+  // const testArr = [1, 2, 3, 4, 5];
   
-  // Відобразити код
-  console.log("Before: " + JSON.stringify(testArr));
-  console.log(nextInLine(testArr, 6));
-  console.log("After: " + JSON.stringify(testArr));
+  // // Відобразити код
+  // console.log("Before: " + JSON.stringify(testArr));
+  // console.log(nextInLine(testArr, 6));
+  // console.log("After: " + JSON.stringify(testArr));
   
-
- 
+  const products = [{
+    id: 'sku1',
+    qty: 1,
+}, {
+    id: 'sku2',
+    qty: 2,
+}, {
+    id: 'sku3',
+    qty: 3,
+}, {
+    id: 'sku1',
+    qty: 6,
+}, {
+    id: 'sku1',
+    qty: 8,
+}, {
+    id: 'sku2',
+    qty: 19,
+}, {
+    id: 'sku4',
+    qty: 1,
+}]
+ products.forEach(function(num, i, nums) {
+  console.log( );
+});
